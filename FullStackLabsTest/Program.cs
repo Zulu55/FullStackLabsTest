@@ -10,6 +10,9 @@ Console.WriteLine(Evaluate(3, matrix));
 
 int Evaluate(int r, int[][] matrix)
 {
+    int n = matrix[0].Length;
+    int w = r * 2 - 1;
+    int t = n - w + 1;
     return 0;
 }
 
